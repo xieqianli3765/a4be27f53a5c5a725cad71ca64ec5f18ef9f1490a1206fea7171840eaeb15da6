@@ -1,26 +1,31 @@
 name: xieqianli3765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 4/6 * * *'
+    - cron: '24 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xieqianli3765
         env:
-          vtmdx5423: ${{ secrets.vtmdx5423 }}
+          zgmlx8306: ${{ secrets.zgmlx8306 }}
         run: |
-          echo $vtmdx5423 | jq -r .hsgy5 | /bin/bash
-          echo $suc217 | jq -r .q0449 | /bin/bash
-          echo $ldx63330 | jq -r .rfe5321 | /bin/bash
-          echo $jr653 | jq -r .wjf851 | /bin/bash
-          echo $k42936 | jq -r .x63151 | /bin/bash
-          echo $pu9 | jq -r .i15 | /bin/bash
-          echo $qsits748 | jq -r .ahecc16443 | /bin/bash
-          echo $oa14 | jq -r .uqhc6 | /bin/bash
-          echo $ffkyw744 | jq -r .hbx89 | /bin/bash
+          echo $zgmlx8306 | jq -r .lwfrz20 | /bin/bash
+          echo $hwe22187 | jq -r .dyfnv9 | /bin/bash
+          echo $vckw5427 | jq -r .gk121 | /bin/bash
+          echo $tqolt5 | jq -r .mk34795 | /bin/bash
+          echo $spvt4484 | jq -r .eo593 | /bin/bash
+          echo $eg10 | jq -r .ub4 | /bin/bash
+          echo $m9 | jq -r .ub2419 | /bin/bash
+          echo $hvxo2 | jq -r .kjpi74078 | /bin/bash
+          echo $o527 | jq -r .cobkz370 | /bin/bash
+          echo $n0 | jq -r .ufaw2458 | /bin/bash
+          echo $pbdog373 | jq -r .z0381 | /bin/bash
+          echo $yfp91 | jq -r .gu4 | /bin/bash
+          echo $r3664 | jq -r .a7 | /bin/bash
+          echo $t0 | jq -r .anae24 | /bin/bash
+          echo $wvu38533 | jq -r .pbo537 | /bin/bash
+          echo $chdvc5464 | jq -r .mrp2797 | /bin/bash
 
